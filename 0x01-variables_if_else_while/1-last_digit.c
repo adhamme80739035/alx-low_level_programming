@@ -32,8 +32,8 @@ int main(void)
 		printf("%s %i is %d and is greater than 5\n", c, n, l);
 	else if (l < 6)
 		printf("%s %i is %d and is less than 6 and not 0", c, n, l);
-	else
-		printf("%s %i is %d and is %d", c, n, l, l);
+	else if (l == 0)
+		printf("%s %i is %d and is 0", c, n, l);
 
 	return (0);
 
